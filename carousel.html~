@@ -10,10 +10,10 @@
     <title>Карусель</title>
   </head>
   <body>
-    <div class="certering">
-      <div class="jcarousel-wrapper centered">
+    <div class="">
+      <div class="jcarousel-wrapper certering">
         <a class="jcarousel-control-prev inactive" href="#" > ‹  </a>
-        <div class="jcarousel" >
+        <div class="jcarousel centered" >
           <ul>
             <li class="mordor"><h1>Мордор</h1><img src="2000.jpg" width="400" height="200" alt=""><p>.</p></li>
             <li class="mordor"><h1>Мордор</h1><img src="2000.jpg" width="400" height="200" alt=""></li>
