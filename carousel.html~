@@ -4,34 +4,37 @@
     <meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="carouselstyle.css" />
     <link rel="stylesheet" type="text/css" href="style1.css" />
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab|Philosopher&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <script type="text/javascript" src="lib/jquery-1.11.1.js"></script>
     <script type="text/javascript" src="lib/jquery.jcarousel.js"></script>
     <script type="text/javascript" src="carousel.js"></script>
     <title>Карусель</title>
   </head>
   <body>
-    <div class="jcarousel-wrapper">
-      <a class="jcarousel-control-prev inactive" href="#" > ‹ Назад </a>
-      <div class="jcarousel" >
-        <ul>
-          <li class="mordor"><h1>Мордор</h1><img src="2000.jpg" width="400" height="200" alt=""><p>.</p></li>
-          <li class="mordor"><h1>Мордор</h1><img src="2000.jpg" width="400" height="200" alt=""></li>
-          <li class="mordor"><h1>Мордор</h1><img src="3000.jpg" width="400" height="200" alt=""></li>
-          <li class="mordor"><h1>Мордор</h1><img src="4000.jpg" width="400" height="200" alt=""></li>
-
-        </ul>
+    <div class="centering>"> 
+      <div class="centered">
+        <div class="jcarousel-wrapper">
+         <div> <img src="left.png" class="left" > <a class="jcarousel-control-prev inactive" href="#" > Обратно </a> </div>
+          <div class="jcarousel" >
+            <ul>
+              <li class="mordor"><h1>Мордор</h1><img src="2000.jpg" width="400" height="200" alt=""><p>.</p></li>
+              <li class="mordor"><h1>Мордор</h1><img src="2000.jpg" width="400" height="200" alt=""></li>
+              <li class="mordor"><h1>Мордор</h1><img src="3000.jpg" width="400" height="200" alt=""></li>
+              <li class="mordor"><h1>Мордор</h1><img src="4000.jpg" width="400" height="200" alt=""></li>
+            </ul>
+          </div>
+          <a class="jcarousel-control-next" href="#" >Туда > </a>
+          <p class="jcarousel-pagination" >
+            <a class="active" href="#1">1</a>
+            <a href="#2">2</a>
+            <a href="#3">3</a>
+            <a href="#4">4</a>
+            <a href="#5">5</a>
+            <a href="#6">6</a>
+          </p>
+        </div>
       </div>
-  
-      <a class="jcarousel-control-next" href="#" >Дальше › </a>
-      <p class="jcarousel-pagination" >
-        <a class="active" href="#1">1</a>
-        <a href="#2">2</a>
-        <a href="#3">3</a>
-        <a href="#4">4</a>
-        <a href="#5">5</a>
-        <a href="#6">6</a>
-      </p>
-    </div>
+    </div>  
   </body>
 </html>
  
