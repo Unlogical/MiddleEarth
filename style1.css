@@ -7,7 +7,7 @@ body {
   background-color: rgb(0,0,0);
 }
 
-.centering>* {
+.centering {
   padding-left: 50%;
 }
 

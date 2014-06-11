@@ -1,12 +1,9 @@
-.body {
-  background-color: black;
-}
-
 .jcarousel {
   position: relative;
   overflow: hidden;
   width: 1000px;
   height: 1000px; 
+  margin:  auto;
 }
 
 .jcarousel-wrapper {
@@ -40,6 +37,7 @@
   font: 24px/27px Arial, sans-serif;
   border-radius: 30px;
   box-shadow: 0 0 2px #999;
+  
 }
 
 .jcarousel-control-prev {
@@ -91,9 +89,5 @@
   color: #fff;
   opacity: 1;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5);
-}
-
-.mordor {
-  background-image: url(1.png);
 }
 

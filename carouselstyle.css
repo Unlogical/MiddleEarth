@@ -1,8 +1,10 @@
 .jcarousel {
-  position: relative;
+  position: absolute;
   overflow: hidden;
   width: 1000px;
   height: 1000px; 
+  left: 50%;
+  margin-left: -500px;
 }
 
 .jcarousel-wrapper {
@@ -36,6 +38,7 @@
   font: 24px/27px Arial, sans-serif;
   border-radius: 30px;
   box-shadow: 0 0 2px #999;
+  
 }
 
 .jcarousel-control-prev {
