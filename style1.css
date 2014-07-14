@@ -43,9 +43,25 @@ body {
 
 .map {
   background-color: rgba(215,210,205,0.8);
+  padding: 15px;
  }
 
 .mordor {
   background-image: url(1.png);
 }
 
+.map_img {
+  width: 900px;
+  margin:0 0 20px 35px;
+}
+
+.map_text {
+  display: block;
+  width: 965px;
+}
+
+/* HEADERS*/
+h1,h2{
+  text-align: center;
+  margin: 5px 0 15px 0;
+}
