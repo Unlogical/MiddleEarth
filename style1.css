@@ -42,13 +42,39 @@ body {
 }
 
 .map {
-  background-color: rgba(215,210,205,0.8);
+  background-color: rgba(225,225,180,0.8);
   padding: 15px;
  }
 
+.shire {
+  background-color: rgba(195,225,200,0.8);
+  padding: 15px;
+ }
+ 
+ .rivendell {
+  background-color: rgba(200,200,225,0.8);
+  padding: 15px;
+ }
+ 
+ .moria {
+  background-color: rgba(70,0,0,0.8);
+  padding: 15px;
+ }
+ 
+ .lorien {
+  background-color: rgba(210,190,110,0.8);
+  padding: 15px;
+ }
+ 
+ .gondor {
+  background-color: rgba(225,225,225,0.8);
+  padding: 15px;
+ }
+ 
 .mordor {
-  background-image: url(1.png);
-}
+  background-color: rgba(0,0,0,0.8);
+  padding: 15px;
+ }
 
 .map_img {
   width: 900px;
