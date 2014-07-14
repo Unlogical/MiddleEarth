@@ -4,29 +4,15 @@
 }
 
 body {
-  background-color: rgb(0,0,0);
+  background: #ffe url("5.jpg") center top no-repeat;
   font-family: 'Philosopher', sans-serif;
 }
 
-.centering {
-  padding-left: 50%;
-}
+.map {
+  background-color: rgba(200,200,200,0.5);
+ }
 
 .mordor {
   background-image: url(1.png);
 }
 
-.left ,
-.right {
-  position: relative;
-  display: block;
-  float: left;
-}
-
-.left {
-  top: 498px;
-}
-
-.right {
-  bottom: 498px;
-}
