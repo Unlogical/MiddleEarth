@@ -11,9 +11,10 @@
     <title>MiddleEarth</title>
   </head>
   <body>
-
+    <div class="header">      
+    </div>
         <div class="jcarousel-wrapper">
-         <div><a class="jcarousel-control-prev inactive" href="#" > <img src="left.png" >  </a> </div>
+         <div><a class="jcarousel-control-prev inactive" href="#" > <img src="pics/left1.png" height="60px" >  </a> </div>
           <div class="jcarousel" >
             <ul>
               <li class="map"><h1></h1><img src="444.jpg" width="400" height="200" alt=""><p>.</p></li>
@@ -22,17 +23,18 @@
               <li class="mordor"><h1>Мордор</h1><img src="4000.jpg" width="400" height="200" alt=""></li>
             </ul>
           </div>
-          <div> <a class="jcarousel-control-next" href="#" > <img src="right.png"  ></a></div>
-          <p class="jcarousel-pagination" >
+          <div> <a class="jcarousel-control-next" href="#" > <img src="pics/right1.png" height="50px" ></a></div>
+<!--          <p class="jcarousel-pagination"
             <a class="active" href="#1">1</a>
             <a href="#2">2</a>
             <a href="#3">3</a>
             <a href="#4">4</a>
             <a href="#5">5</a>
             <a href="#6">6</a>
-          </p>
+          </p> >-->
         </div>
- 
+    <div class="bottom">      
+    </div>
   </body>
 </html>
  

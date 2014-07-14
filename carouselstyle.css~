@@ -1,20 +1,20 @@
 .jcarousel-wrapper {
   position: absolute;
   width: 1200px;
-  height: 1000px;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
-  margin: auto;
+  margin: 50px auto 0 auto;
   padding: 0;
-  background-color: blue;
 }
 
 .jcarousel {
   position: relative;
   overflow: hidden;
   width: 1000px;
+  height: 800px;
+  margin: auto;
 }
 
 .jcarousel ul {
@@ -28,29 +28,28 @@
 .jcarousel li {
   float: left;
   width: 1000px;
-  height: 1000px;
+  height: 800px;
 }
  
 .jcarousel-control-prev,
 .jcarousel-control-next {
-  position: relative;
+  position: fixed;
+  top: 300px;
   text-align: center;
   display: block;
-  height: 30px;
-  width: 100px;
   text-decoration: none;
   color: rgb(250,140,100);
   font-size: 20px;
 }
 
 .jcarousel-control-prev {
- float: left; 
- top: 498px;
+  left: 102px;
+
 }
 
 .jcarousel-control-next {
- float: right;
- bottom: 502px;
+  left: 1215px;
+
 }
 
 .jcarousel-control-prev:hover span,
